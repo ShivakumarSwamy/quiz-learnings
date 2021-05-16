@@ -7,7 +7,7 @@ import java.util.List;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
 
-public class Program {
+public class PasswordHashing {
 
     private static final int MINIMUM_SALT_LENGTH = 20;
     private static final int LOWER_BOUND_PASSWORD_LENGTH = 12;
@@ -16,7 +16,7 @@ public class Program {
     private static final int UPPER_BOUND_ITERATION = 100000;
     private static final List<Integer> ALLOWED_KEYLENGTH = List.of(256, 512);
 
-    private Program() {
+    private PasswordHashing() {
         // intentionally left empty
     }
 
