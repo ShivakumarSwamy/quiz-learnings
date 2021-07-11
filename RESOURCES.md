@@ -1,25 +1,34 @@
-# Resources
+# resources
 
-## Table of Contents
+----
+* [owasp](#owasp)
+* [password hashing](#password-hashing)
+* [bean validation](#bean-validation)
+* [regex helper](#regex-helper)
+* [jdbc](#jdbc)
+* [others](#others)
+----
 
-- [OWASP](#owasp)
-- [Password Hashing](#password-hashing)
-- [Bean Validation](#bean-validation)
-- [Regex Helper](#regex-helper)
+### owasp
 
-### OWASP
+- [owasp cheat sheet series](https://cheatsheetseries.owasp.org/index.html)
+- [insecure direct object reference](https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html)
+- [sql injection](https://owasp.org/www-community/attacks/SQL_Injection)
 
-- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/index.html)
-- [Insecure Direct Object Reference](https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html)
-- [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
+### password hashing
+- [salted password hashing - doing it right](https://crackstation.net/hashing-security.htm)
 
-### Password Hashing
-- [Salted Password Hashing - Doing it Right](https://crackstation.net/hashing-security.htm)
+### bean validation
 
-### Bean Validation
+- [java constraints](https://docs.oracle.com/javaee/7/tutorial/bean-validation001.htm)
 
-- [Java constraints](https://docs.oracle.com/javaee/7/tutorial/bean-validation001.htm)
+### regex helper
 
-### Regex Helper
+- [regexr](https://regexr.com/)
 
-- [Regexr](https://regexr.com/)
+### jdbc
+
+- [prepared statement](https://www.tutorialspoint.com/javaexamples/jdbc_prepared_statement.htm)
+
+### others
+- [security through obscurity](https://en.wikipedia.org/wiki/Security_through_obscurity)
